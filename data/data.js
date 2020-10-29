@@ -1,13 +1,19 @@
 const data = [
   {
     title: "Only Right",
-    description: "you must go only right on start",
+    description: "you must go only right section on start",
+    type: "POSITION",
+    impostor: "CREWMATE",
+  },
+  {
+    title: "Third Eye",
+    description: "check cameras every round",
     type: "POSITION",
     impostor: "CREWMATE",
   },
   {
     title: "Only Left",
-    description: "you must go only left on start",
+    description: "you must go only left section on start",
     type: "POSITION",
     impostor: "CREWMATE",
   },
@@ -60,7 +66,7 @@ const data = [
     impostor: "CREWMATE",
   },
   {
-    title: "I lovee you",
+    title: "I love you",
     description: "protect firtst suspect at each meeting",
     type: "VOTING",
     impostor: "CREWMATE",
@@ -97,6 +103,30 @@ const data = [
     impostor: "IMPOSTOR",
   },
   {
+    title: "Sabotage is my time",
+    description: "only kill while sabotaging",
+    type: "OTHER",
+    impostor: "IMPOSTOR",
+  },
+  {
+    title: "Sabotage time",
+    description: "turn on some sabotage every cooldown",
+    type: "OTHER",
+    impostor: "IMPOSTOR",
+  },
+  {
+    title: "I'm faster",
+    description: "kills a person every cooldown",
+    type: "OTHER",
+    impostor: "IMPOSTOR",
+  },
+  {
+    title: "I play solo",
+    description: "suspect a second imposter, you want to throw it away",
+    type: "VOTING",
+    impostor: "IMPOSTOR",
+  },
+  {
     title: "mute microfon",
     description:
       "don't use microfon/chat if you are not in a critical situation",
@@ -113,6 +143,19 @@ const data = [
   {
     title: "I'm Afk",
     description: "do not move for the first 10 seconds",
+    type: "OTHER",
+    impostor: "CREWMATE",
+  },
+  {
+    title: "F1",
+    description:
+      "before you start the tasks, you have to go around the whole map",
+    type: "OTHER",
+    impostor: "CREWMATE",
+  },
+  {
+    title: "Spectator",
+    description: "you check everyone instead of doing tasks",
     type: "OTHER",
     impostor: "CREWMATE",
   },
@@ -138,6 +181,33 @@ const data = [
   {
     title: "Only P",
     description: "use words only for p",
+    type: "TEAM",
+    impostor: "TEAM",
+  },
+  {
+    title: "5 word",
+    description: "you can only use 5 words in a meeting",
+    type: "TEAM",
+    impostor: "TEAM",
+  },
+  {
+    title: "I'm you",
+    description:
+      "the fun consists in changing the nickname to another person and pretending it, in speaking, playing, etc.",
+    type: "TEAM",
+    impostor: "TEAM",
+  },
+  {
+    title: "I'm red",
+    description:
+      "everyone changes the nickname to some random letters, numbers, e.g. 69, d3. as. we don't say who we are, while playing, we can talk from the beyond and pretend to be another player, or say that we are imposters",
+    type: "TEAM",
+    impostor: "TEAM",
+  },
+  {
+    title: "Race",
+    description:
+      "you play for 1 inpostor, the impostor has the smallest possible vision and cooldown, crewmate has the greatest vision possible, the fun is to finish tasks by crewmates as quickly as possible and running away from the killer with your vision, while having fun, you can talk e.g. where the killer was seen, you cannot report bodies or a meeting",
     type: "TEAM",
     impostor: "TEAM",
   },
