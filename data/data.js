@@ -25,8 +25,27 @@ const data = [
     impostor: "CREWMATE",
   },
   {
+    title: "Counterclockwise",
+    description: "You perform tasks counterclockwise",
+    type: "POSITION",
+    impostor: "CREWMATE",
+  },
+  {
+    title: "Clockwise",
+    description: "You perform tasks clockwise",
+    type: "POSITION",
+    impostor: "CREWMATE",
+  },
+  {
     title: "Shadow",
     description: "Follow 1 selected person",
+    type: "POSITION",
+    impostor: "CREWMATE",
+  },
+  {
+    title: "4 directions",
+    description:
+      "You can only walk in 4 directions up right, down, left. You can't diagonally",
     type: "POSITION",
     impostor: "CREWMATE",
   },
@@ -41,6 +60,12 @@ const data = [
     title: "I love red",
     description:
       "In first meeting help red (if you red or there is no red help orange, pink, yellow)",
+    type: "VOTING",
+    impostor: "CREWMATE",
+  },
+  {
+    title: "No Vote",
+    description: "In the first 2 rounds do not vote on anyone",
     type: "VOTING",
     impostor: "CREWMATE",
   },
@@ -123,6 +148,25 @@ const data = [
     impostor: "CREWMATE",
   },
   {
+    title: "It's not my job",
+    description: "You cannot repair a tamper",
+    type: "OTHER",
+    impostor: "CREWMATE",
+  },
+  {
+    title: "4 directions",
+    description:
+      "You can only walk in 4 directions up right, down, left. You can't diagonally",
+    type: "POSITION",
+    impostor: "IMPOSTOR",
+  },
+  {
+    title: "Crime scene",
+    description: "You cannot enter the rooms where you killed",
+    type: "POSITION",
+    impostor: "IMPOSTOR",
+  },
+  {
     title: "Only left section",
     description: "You must go only left",
     type: "POSITION",
@@ -144,6 +188,12 @@ const data = [
     title: "Mute microfon",
     description:
       "Don't use microfon/chat if you are not in a critical situation",
+    type: "VOTING",
+    impostor: "IMPOSTOR",
+  },
+  {
+    title: "No Vote",
+    description: "In the first 2 rounds do not vote on anyone",
     type: "VOTING",
     impostor: "IMPOSTOR",
   },
@@ -178,6 +228,12 @@ const data = [
     impostor: "IMPOSTOR",
   },
   {
+    title: "Second kill",
+    description: "Kill only when the second impostor kills",
+    type: "OTHER",
+    impostor: "IMPOSTOR",
+  },
+  {
     title: "You will live",
     description:
       "Choose a person who you won't kill until the end (who will survive with the impostor)",
@@ -206,6 +262,18 @@ const data = [
     title: "I'm you",
     description:
       "The fun consists in changing the nickname to another person and pretending it, in speaking, playing, etc.",
+    type: "TEAM",
+    impostor: "TEAM",
+  },
+  {
+    title: "Liar",
+    description: "Each of you must lie",
+    type: "TEAM",
+    impostor: "TEAM",
+  },
+  {
+    title: "Thrown you out",
+    description: "I have to fire someone at every meeting",
     type: "TEAM",
     impostor: "TEAM",
   },
