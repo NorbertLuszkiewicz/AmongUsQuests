@@ -6,6 +6,7 @@ import { StyleSheet, View } from "react-native";
 import MainView from "./Views/MainView";
 import ChooseView from "./Views/ChooseView";
 import QuoteView from "./Views/QuoteView";
+import SupportView from "./Views/SupportView";
 
 const Stack = createStackNavigator();
 
@@ -30,6 +31,12 @@ export default function App() {
           style={styles.screen}
           name="Quest"
           component={QuoteView}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          style={styles.screen}
+          name="Support"
+          component={SupportView}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>
