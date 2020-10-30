@@ -1,14 +1,15 @@
 {
   "expo": {
-    "name": "amongUsQuests",
-    "slug": "amongUsQuests",
+    "name": "Among Us Quests",
+    "slug": "AmongUsQuests",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "sdkVersion": "23.0.0",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,8 +18,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dynamix.AmongUsQuests"
     },
+    "android": {
+      "package": "com.dynamix.AmongUsQuests"
+      },
+      
     "web": {
       "favicon": "./assets/favicon.png"
     }
