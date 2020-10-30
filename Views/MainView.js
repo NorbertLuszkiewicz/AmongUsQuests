@@ -39,7 +39,10 @@ const MainView = ({ navigation }) => {
         />
       </View>
       <View style={styles.supportButton}>
-        <Button title="Support and Privacy " />
+        <Button
+          title="Support and Privacy "
+          onPress={() => navigation.navigate("Support", { type: "SUPPORT" })}
+        />
       </View>
       <StatusBar style="auto" />
     </ImageBackground>
