@@ -5,28 +5,19 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "sdkVersion": "23.0.0",
+    "sdkVersion": "36.0.0",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#000"
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.dynamix.AmongUsQuests"
     },
     "android": {
       "package": "com.dynamix.AmongUsQuests"
-      },
-      
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "The app with additional quests in Among us. Made to increase the fun of the game"
   }
 }
